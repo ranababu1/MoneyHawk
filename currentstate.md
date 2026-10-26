@@ -24,7 +24,11 @@ code that AI/strategy code cannot bypass. plan.md and instructions.md were updat
 - `dart format .` ok, `flutter analyze` no issues, `flutter test` 2 passed.
 - `flutter build apk --debug` ok. iOS build not run (needs macOS).
 
+## Phase 0 progress
+Findings in `docs/phase0-findings.md`. Major blocker: Groww requires a
+registered static IP for order placement, which a phone normally lacks.
+The app-only architecture needs a user decision (see that file).
+
 ## Next step
-Phase 0: verify current official Groww Trade API docs (auth, orders,
-market data, rate limits) and regulatory constraints, then
-design the Dart module skeleton.
+Decide how to satisfy the static-IP requirement (relay/VPN/manual-only/
+confirm with Groww), then finish remaining Phase 0 items.

@@ -15,3 +15,4 @@
   architecture: no backend; on-device risk engine, order manager and Groww
   adapter; secure storage; foreground-only autonomous execution.
 - `flutter build apk --debug` succeeded.
+- Phase 0 research added: docs/phase0-findings.md (docs only; found static-IP blocker for on-device orders).
